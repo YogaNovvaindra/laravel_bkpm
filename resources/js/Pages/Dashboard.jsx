@@ -12,7 +12,7 @@ export default function Dashboard(props) {
                             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                                 Hey 👋 I am{" "}
                                 <span classNameName="flex">
-                                    Yoga Novaindra
+                                    {props.auth.user.name}
                                 </span>
                             </h2>
                             <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
